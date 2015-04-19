@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Index";
+    zdk.Membership.Web.Models.zdkUserModel zdk = ViewBag.zdkUser;
+}
+
+<h2>LOCK CONTROLLER</h2>
+
+The index -- all authorized users have access
+
+Link
+
+@if (zdk.Tasks.Count > 1)
+{
+    
+    <b>Im  a high security guy</b>
+    
+}
+
+
